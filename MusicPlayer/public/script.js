@@ -185,7 +185,7 @@ const app={
             _this.scrollToActiveSong();
             
         }
-        //Previous song on
+        
         //bài hát trước đó
         prevBtn.onclick =function(){
             if(_this.isRandom){
