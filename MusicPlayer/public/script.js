@@ -169,7 +169,7 @@ const app={
             r.style.setProperty('--c-width',Math.floor(newWidth*3/100)+'px');
             cd.style.opacity = scaleRatio;
         };     
-     //xử lý khi click play
+        //xử lý khi click play
         playBtn.onclick = function(){
             if(_this.isPlaying) {
                 audio.pause();
