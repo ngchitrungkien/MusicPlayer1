@@ -198,7 +198,7 @@ const app={
             _this.scrollToActiveSong();
         };
         
-        //Random on
+        //Random bài hát
         randomBtn.onclick =function(){
             _this.isRandom=!_this.isRandom;
             _this.setConfig('isRandom',_this.isRandom);
