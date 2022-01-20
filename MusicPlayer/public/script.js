@@ -233,13 +233,13 @@ const app={
                 var second=_this.songTime%60;
                 endTime.innerHTML =`0${Math.floor(_this.songTime/60)}:${second>9?second:'0'+second}`;
         }
-        //khi song được play
+        //khi play bài hát
         audio.onplay =function(){
             _this.isPlaying = true;        
             player.classList.add('playing');
             cdThumbAnimate.play();
         };
-        //khi song bị pause
+        //khi pause bài hát
         audio.onpause =function(){
             _this.isPlaying = false;
             player.classList.remove('playing');
